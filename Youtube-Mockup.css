@@ -1,0 +1,247 @@
+html{
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+}
+*{
+    font-weight:lighter;
+    font-family: 'Roboto','Noto',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.Header{
+padding: 10px;
+align-items: center;
+background-color: #202020;
+display: flex;
+flex-wrap:wrap;
+max-height: 2%;
+min-width: 100%;
+}
+.Header img{
+    width: auto;
+    height: 20px;
+}
+.Account-Display img{
+width: 32px;
+height: 32px;
+}
+.Icon-Selection path{
+    fill:white;
+}
+#youtube-red-paths path{
+    fill: white;
+}
+
+.Icon-Selection svg{
+    
+    width: 24px;
+    height: 24px;
+}
+#Youtube_hamburger{
+    height:18px;
+    width:18px;
+    padding-right: 30px;
+    padding-left: 20px;
+    filter: invert();
+
+}
+
+.search-menu{
+    border-radius: 1px;
+    background-color: #181717;
+    width: 634px;
+    height: 32px;
+    margin-left: 23%;
+    border:1px solid  rgb(51, 51, 51);
+
+}
+.search-menu input{
+    padding-left: 1%;
+    line-height: 10px;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 4px;
+    color:  rgb(255, 255, 255);
+    background-color: #181717;
+    border: 0;
+    margin-bottom: 10px;
+    width:562px;
+    height: 26px;}
+.search-menu button{
+    border: .26vw solid rgb(51, 51, 51);
+    border-style:solid;
+    padding-right: 2.25%;
+    padding-left:2.25%;
+    background-color: rgb(51,51,51);
+    color: rgb(168, 167, 167);
+}
+.search-menu button:hover{
+    cursor:pointer;
+
+}
+#micButton{
+    display: flex;
+    margin-left: 3px;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: rgb(20, 20, 20);
+    transition: all ease-in-out 250ms;
+}
+
+#micButton:hover{
+background-color: rgb(53, 53, 53);
+}
+
+
+
+#IconMenu{
+    padding: 3px;
+    border-radius: 100px;
+    background-color: rgb(20, 20, 20);
+    transition: all ease-in-out 250ms;
+    
+}
+
+#IconMenu:hover{
+    background-color: rgb(53, 53, 53); 
+}
+
+.Iconleft{
+    display: flex;
+    float: left;
+    align-items:left;
+    justify-content: left;
+    align-self: left;
+    float: left;
+    left: 0;
+
+}
+.Iconright{
+
+    display: flex;
+    float: right;
+    align-items: right;
+    justify-content: right;
+    align-self: right;
+    float: right;
+    margin-left: 80%;
+}
+.Icon-Selection{
+    display: flex;
+    width: 30%;
+    
+
+}
+.Icon-Selection svg{
+    margin-right: 10px;
+}
+.Icon-Selection img{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+}
+
+.container{
+margin-top: 1%;
+margin-left: 12%;
+}
+.body{
+    display: flex;
+}
+#videoTitle{
+height: auto;
+display: flex;
+justify-content: left;
+max-width: 24ch;
+font-size: 14px;
+color: white;
+}
+#videoCreator{
+display: flex;
+justify-content: left;
+font-size: 12px;
+color: rgb(168, 168, 168);
+}
+#viewCount{
+justify-content: left;
+display: flex;
+font-size: 10px;
+color: rgb(168, 168, 168);
+}
+.right-side img{
+    display: flex;
+    justify-content: left;
+}
+.left-side{
+}
+.right-side{
+
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+.videoInfo{
+    margin-left: 1%;
+}
+.videoOne{
+    margin-bottom: 1%;
+    display: flex;
+}
+.videoTwo{
+    margin-bottom: 1%;
+    display: flex;
+}
+.videoThree{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoFour{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoFive{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoSix{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoSeven{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoEight{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoNine{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoTen{
+    display: flex;
+    margin-bottom: 1%;
+}
+.videoEleven{
+    display: flex;
+    margin-bottom: 1%;
+}
+#mainViews{
+color: rgb(168, 168, 168);
+font-size: 12px;
+}
+#mainTitle{
+margin-top: 1%;
+margin-bottom: 2%;
+color: white;
+font-size: 18px;
+}
+#mainTags{
+color: rgb(63, 142, 245);
+font-size: 12px;
+}
